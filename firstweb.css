@@ -1,12 +1,24 @@
 body {
 font-family:comic sans MS;
 background-color: lightgrey;
+background-image: url("image/download3.jpg");
+height : 100vh;
+background-size: cover;
+background-position-y: center;
 }
 h1 {
      color:Maroon; text-align:center; background:grey;
 }
 h4 {
    color:brown;
+}
+img {
+    width:250px;
+    font-weight: bolder;
+}
+
+ul li {
+    color:maroon;
 }
 table {
     border: 3px solid black;
