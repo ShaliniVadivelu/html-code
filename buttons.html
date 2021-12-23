@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <title> Download icon</title>
+        <link rel="stylesheet" href="buttons.css">
+        <meta name="viewport" content ="wuidth=device-width, initial-scale=1.0">
+        <!-- Add icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script>
+            function webFunction()
+            { 
+               document.write("redirecting to bootstrap website...");
+            window.location.href = "http://getbootstrap.com";
+            }
+            </script>
+        </head>
+
+        <body>
+            <marquee>
+                <h4 style="color:white">Welcome to this page ! &#128539 </h4>
+            </marquee>
+
+          <div class="navbar">
+            <a  href="#home">Home<i style="color: maroon" class="fa fa-home"></i></a>
+            <a href="#link">Link<i style="color:maroon" class="fa fa-link"></i></a>
+            <a href="#image">Image<i style="color:maroon" class="fa fa-image"></i></a>
+            <a href="#about">Contact<i style="color:maroon" class="fa fa-envelope"></i> </a>
+             <input type="text" placeholder="Search.." name="search">
+          </div>
+         
+          <div>
+              <h3>Click the below button to get into the BootStrap Website!</h3>
+          <!--donwload icon button-->
+          <button class="btn" onclick="webFunction()"><i class="fa fa-arrow-right"></i> websitelink </button> 
+          <br> <br>
+
+          <h3>Click the below button to downalod the images!</h3>
+          <!--image icon button--> 
+          <a href="image/download3.jpg"
+          download class="btn"> <i class="fa fa-download"> </i> Download </a> 
+          </div>
+         </body>
+</html>
