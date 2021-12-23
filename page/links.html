@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content ="wuidth=device-width, initial-scale=1.0">
+        <title>Navigation bar</title>
+        <link rel="stylesheet" href="../navigation.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>link</title>
+        <script>
+            function webFunction()
+            { 
+               document.write("redirecting to bootstrap website...");
+            window.location.href = "http://getbootstrap.com";
+            }
+            </script>
+    </head>
+
+    <body>
+        <nav>
+        <div class='nav-links'>
+            <a  href="../navigation.html">Home<i style="color: maroon" class="fa fa-home"></i></a>
+            <a class="active" href="page/links.html">Link<i style="color:maroon" class="fa fa-link"></i></a>
+            <a href="images.html">Image<i style="color:maroon" class="fa fa-image"></i></a>
+            <a href="contact.html">Contact<i style="color:maroon" class="fa fa-envelope"></i> </a>
+            
+             <input type="text" placeholder="Search.." name="search">
+          </div>
+        </nav>
+          <div class="body-text">
+            <h3>Click the below button to get into the BootStrap Website!</h3>
+            <!--donwload icon button-->
+            <button class="btn" onclick="webFunction()"><i class="fa fa-arrow-right"></i> websitelink </button> 
+          </div>
+    </body>
+</html>
