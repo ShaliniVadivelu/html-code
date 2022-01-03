@@ -26,8 +26,10 @@
   .nav-links a:hover {
     background-color: white;
   }
-  
-  
+  .nav-links input:hover
+  {
+    background-color: lightpink;
+  }
   body {
     text-align: center;
     font-family:comic sans MS;
