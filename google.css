@@ -1,0 +1,244 @@
+/* body style*/
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: arial,sans-serif;
+}
+.nav-links {
+    background-color: none;
+    overflow: hidden;
+    font-weight:lighter;
+    font-family: arial,sans-serif;
+  }
+.nav-links a {
+    float: right;
+    text-align: center;
+    padding: 17px 15px;
+    text-decoration: none;
+    font-size: 13px;
+    color:rgb(43, 42, 42);
+}
+.nav-links a img{
+  top:2.5%;
+  left: 0.8%;
+  
+}
+.nav-links a:hover{
+  text-decoration: underline;
+}
+
+/*google image */
+ img {
+    position: absolute;
+    top:9%;
+    left:39%;
+}
+
+/* google search bar */
+.box1 {
+  width: 582px;
+  height: 45px;
+  top:28.8%;
+  left:28.59%;
+  position: absolute;
+  border: 1px solid #dce0e2;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 4px;
+}
+.box1  i{
+  padding :12px;
+  size:2px;
+  color: rgb(163, 160, 160);
+}
+.box1 input {
+  flex : 1;
+  height: 25px;
+  background-color: transparent;
+  border: none;
+  outline:none;
+  font-size:16px;
+  font-family:sans-serif;
+}
+.box1:hover {
+  box-shadow: 0px 0.1px 8px #d9dfdf;
+}
+.box1 img{
+  padding: 8px 322px;
+  cursor: pointer; 
+}
+.imageicon #img1{
+top:3%;
+left:23.5%;
+cursor: pointer;
+}
+.imageicon #img2{
+  top:2.5%;
+  left:32%;
+  cursor: pointer;
+  }
+
+  .box2 {
+    border :none;
+    font-weight: solid;
+    font-size:14px;
+    width: 124px;
+    height: 35px;
+    position: absolute;
+    border-radius: 2px;
+    top:41%;
+    left:40%;
+    background-color: #f8f9fa;
+    cursor: pointer;                                       
+  }
+  .box3 {
+    border:none;
+    font-size:14px;
+    width: 138px;
+    height: 35px;
+    position: absolute;
+    border-radius: 2px;
+    top:41%;
+    left:50%;
+    background-color:#f8f9fa;
+    cursor: pointer; 
+  }
+  .box input:hover{
+  box-shadow: 0px 0.5px 1.8px #5d5e5f;
+  }
+
+.nav-bar a {
+    float: left;
+  }
+.label1 {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+    margin-left:10px;
+}
+.field{
+      height: 30px;
+      display: table-cell;
+      vertical-align: middle;
+      font-size: 12px;
+}
+.textinput {
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+}
+#field2 {
+  margin-left: 30px;
+}
+#field1 {
+  margin-left: 85px;
+}
+#field3 {
+  margin-left: 73px;
+}
+#field4 {
+  margin-left: 55px;
+}
+#field5{
+  border-radius: 1.5px;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  height: 30px;
+  padding: 2px 15px;
+  font-size:11px;
+  font-weight: bold;
+  margin-left: 200px;
+  box-shadow: none;
+  color:white;
+  background-color: #2376fa;
+}
+#field5:hover{
+  background-color: #3b82f5;
+  border: 0.05px solid #1537f7;
+}
+.textinput:focus {
+  outline: none !important;
+  border:1px solid rgb(130, 130, 250);
+  box-shadow: 0 0 2px lightblue;
+}
+
+.material-icons{
+  cursor:pointer;
+}
+
+.bottom {
+  color: #347ef7;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    position: absolute;
+    left: 90%;
+    bottom: 0;
+    white-space: nowrap;
+}
+.container {
+  position: absolute;
+  top: 48%;
+  left:30.5%;
+  text-align: center;
+  color: #1537f7;
+}
+.container a{
+  font-size:13px;
+  color:#162dad;
+  padding: 0 3px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.container a:hover {
+  text-decoration: underline;
+}
+.footer{
+  background-color: rgb(241, 241, 241);
+  position: absolute;
+  left:0;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+  color: grey;
+}
+.footer .row {
+  padding: 13px 25px;
+  width:100%;
+ }
+ .footer .row2 {
+  padding: 13px 25px;
+  border-top: 1px solid rgb(218, 218, 218);
+  width:100%;
+ }
+ .footer .row.row2{
+  display:flex;
+  justify-content : space-between;
+  padding: 0.01px;
+}
+.footer .row.row2 ul {
+  display:flex;
+}
+.footer .row.row2 ul li {
+  list-style:none;
+}
+.footer .row.row2 ul li a  {
+  text-decoration: none;
+  font-size: 14px;
+  color:grey;
+  margin-right: 25px;
+}
+.footer .row.row2 ul li a:hover {
+  text-decoration: underline;
+}
+
+.name{
+  color:#4285f4;
+  position: absolute;
+  left: 56%;
+  top:21.5%;
+  font-size: 16px;
+}
